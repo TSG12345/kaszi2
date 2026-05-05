@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Kaszin\u00F3_projekt.Modells.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "GetFelhasznalok",
+    "RelativePath": "api/felhasznalok",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "GetUserById",
+    "RelativePath": "api/felhasznalok/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "DeleteUser",
+    "RelativePath": "api/felhasznalok/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "UpdateBalance",
+    "RelativePath": "api/felhasznalok/{id}/egyenleg",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Kaszin\u00F3_projekt.Controllers.BalanceUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "GetUserStats",
+    "RelativePath": "api/felhasznalok/{id}/statisztikak",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "PutRegisztracio",
+    "RelativePath": "api/felhasznalok/regisztracio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ujAdat",
+        "Type": "Kaszin\u00F3_projekt.Modells.Adatokmodell",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "SaveGame",
+    "RelativePath": "api/jatekok/mentes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameData",
+        "Type": "Kaszin\u00F3_projekt.Modells.J\u00E1t\u00E9kokAdatai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kaszin\u00F3_projekt.Controllers.Kaszinocontroller",
+    "Method": "GetUsers",
+    "RelativePath": "users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
